@@ -24,12 +24,3 @@ const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitioned', removeTransition));
 
 window.addEventListener('keydown', playSound);
-
-
-// arrray = [1,2,3,4]
-// //            i
-// arrray.forEach(i => console.log(i))
-// 1
-// 2
-// 3
-// 4
